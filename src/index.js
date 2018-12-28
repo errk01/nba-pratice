@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
+//json-server --watch db.json --port 3001
+
 import Routes from './Routes';
 const App = () => {
   return (
